@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background: #71c7ef;
+    background: linear-gradient(90deg, rgba(220, 235, 242, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+#question {
+    font-size: 56px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+#btn {
+    width: 85px;
+    height: 42px;
+}
+
+.input {
+    text-align: center;
+}
+
+
+#answerField {
+    width: 300px;
+    height: 42px;
+}
+
+#score {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 6oo;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #0a0a0a;
+  color: #ffffff;
+  font-size: 27px;
+}
+
+footer div {
+    margin: 6px;
+}
+
+@media (max-width: 560px) {
+    #question {
+        font-size: 46px;
+        font-weight: 600;
+    }
+    #answerField {
+        width: 240px;
+        height: 34px;
+    }
+
+    #score {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    footer {
+        padding: 7px;
+        font-size: 22px;
+    }
+
+
+}
+
+@media (max-width: 460px) {
+    #question {
+        font-size: 40px;
+        font-weight: 500;
+    }
+    #answerField {
+        width: 210px;
+        height: 28px;
+    }
+
+    #score {
+        font-size: 37px;
+        font-weight: 500;
+    }
+
+    footer {
+        padding: 5px;
+        font-size: 18px;
+    }
+
+
+}
