@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let score = 0;
 
     const generateQuestion = () => {
-        x = Math.ceil(Math.random() * 10);
-        y = Math.ceil(Math.random() * 10);
+        x = Math.ceil(Math.random() * 1000);
+        y = Math.ceil(Math.random() * 1000);
 
         document.getElementById('question').innerHTML = `${x} + ${y}`;
 
